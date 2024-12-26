@@ -1,0 +1,450 @@
+.container { 
+	width: 100vw;
+	height: auto;
+	background: linear-gradient(black,#351646);
+}
+
+@font-face {
+	font-family: 'Marvin Visions';
+	src: url(../fonts/MarvinVisionsBig-Bold.ttf);
+}
+
+section {
+	position: relative; 
+}
+
+/*navbar*/
+
+.home {
+	width: 100vw;
+	height: 100vh;
+ 	background: url("../images/castle.png");
+ 	opacity: 50%;
+}
+
+
+
+/*Text goes here*/
+
+h2 {
+	font-size: 150px;
+	margin-left: 50px;
+	margin-top: 80px;
+	color: #D3D3D3;
+	font-family: Marvin Visions;
+}
+
+h3 {
+	font-size: 150px;
+	margin-left: 50px;
+	margin-top: 50px;
+	color: #7D7D7D;
+	font-family: Marvin Visions;
+}
+
+h4 {
+	font-size: 150px;
+	margin-left: 50px;
+	margin-top: 50px;
+	color: #515151;
+	font-family: Marvin Visions;
+}
+
+h5 {
+	color: #D3D3D3;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+h6 {
+	color: #B4B4B4;
+	font-weight: normal;
+}
+
+.one {
+	width: 1450px; /* this section has a fixed width. I recommend doing this for everything outside of the hero image section */
+	height: 100vh;
+	margin-top: 50px;
+	font-size: 40px;
+	font-weight: normal;
+	margin-left: 40px;
+}
+
+.line {
+	width: 1450px;
+	height: 2px;
+	background: white;
+	position: absolute;
+	top: 1200px;
+	margin-left: 40px;
+	color: #B4B4B4;
+}
+
+.two {
+	width: 1450px;
+	
+}
+
+.three {
+	background: url("../images/crow.png") no-repeat center;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	bottom: 260px;
+}
+
+.four {
+	background: url("../images/skully.png") no-repeat center;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	bottom: 100px;
+} 
+
+.six {
+	background: url("../images/Sioux.png") no-repeat center;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.seven {
+	background: url("../images/twilight.png") no-repeat center;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top:110px;
+
+}
+
+.nine {
+	background: url("../images/hugenookerslol.png") no-repeat center;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top: 200px;
+}
+
+.footer {
+	width: 100vw;
+	height: 100px;
+	background: black;
+	position: relative;
+	top: 85px;
+}
+
+.arrow {
+	background: url("../images/right.png") no-repeat center;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 1380px;
+	right: 120px;
+}
+
+.arrow2 {
+	background: url("../images/right.png") no-repeat center;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 1000px;
+}
+
+.arrow3 {
+	background: url("../images/right.png") no-repeat center;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 970px;
+}
+
+.arrow4 {
+	background: url("../images/right.png") no-repeat center;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 930px;
+}
+
+.arrow5 {
+	background: url("../images/right.png") no-repeat center;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 910px;	
+}
+
+
+h7 {
+	font-size: 70px;
+	position: absolute;
+	bottom: 400px;
+	margin-left: 50px;
+	color: #B4B4B4;
+	font-family: 'Marvin Visions';
+}
+
+h8 {
+	font-size: 40px;
+	position: absolute;
+	bottom: 310px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 75%;
+}
+
+h9 {
+	font-size: 40px;
+	position: absolute;
+	bottom: 260px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 50%;
+}
+
+h10 {
+	font-size: 40px;
+	position: absolute;
+	bottom: 210px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 25%;
+}
+
+h11 {
+	color: #878787;
+	position: absolute;
+	top: 730px;
+	margin-left: 180px;
+}
+
+h12 {
+	font-size: 70px;
+	margin-left: 50px;
+	color: #B4B4B4;
+	position: absolute;
+	top: -200px;
+	font-family: 'Marvin Visions';
+}
+
+h13 {
+	font-size: 40px;
+	position: absolute;
+	top: -80px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 75%;
+
+}
+
+h14 {
+	font-size: 40px;
+	position: absolute;
+	top: -30px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 50%;
+}
+
+h15 {
+	font-size: 40px;
+	position: absolute;
+	top: 20px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 25%;
+}
+
+h16 {
+	color: #878787;
+	position: relative;
+	top: -200px;
+	margin-left: 180px;
+}
+
+h17 {
+	font-size: 70px;
+	margin-left: 50px;
+	color: #B4B4B4;
+	position: absolute;
+	top: -170px;
+	font-family: Marvin Visions;
+}
+
+h18 {
+	font-size: 40px;
+	position: absolute;
+	top: -50px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 75%;
+}
+
+h19 {
+	font-size: 40px;
+	position: absolute;
+	top: 0px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 50%;
+}
+
+h20 {
+	font-size: 40px;
+	position: absolute;
+	top: 50px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 25%;
+}
+
+h21{
+	color: #878787;
+	position: absolute;
+	top: 725px;
+	margin-left: 180px;
+}
+
+h22 {
+	font-family: Marvin Visions;
+	font-size: 70px;
+	margin-left: 50px;
+	color: #B4B4B4;
+	position: absolute;
+	top: -170px;
+}
+
+h23 {
+	font-size: 40px;
+	position: absolute;
+	top: -60px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 75%;
+}
+
+h24 {
+	font-size: 40px;
+	position: absolute;
+	top: -10px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 50%;
+}
+
+h25 {
+	font-size: 40px;
+	position: absolute;
+	top: 40px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 25%;
+}
+
+h26 {
+	font-family: Marvin Visions;
+	font-size: 70px;
+	margin-left: 50px;
+	color: #B4B4B4;
+	position: absolute;	
+	top: 40px;
+}
+
+h27 {
+	font-size: 40px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 75%;
+	position: absolute;
+	top: 140px;
+}
+
+h28 {
+	font-size: 40px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 50%;
+	position: absolute;
+	top: 190px;
+}
+
+h29 {
+	font-size: 40px;
+	color: #B4B4B4;
+	margin-left: 50px;
+	opacity: 25%;
+	position: absolute;
+	top: 240px;	
+}
+
+h30 {
+	color: #878787;
+	margin-left: 180px;	
+	position: absolute;
+	bottom: 1000px;
+}
+
+h31 {
+	color: gray;
+	position: relative;
+	top: 40px;
+	margin-left: 50px;
+	font-size: 25px;
+}
+
+h32 {
+	color: white;
+	float: right;
+	font-size: 25px;
+	margin-right: 50px;
+	position: relative;
+	top: 40px;
+}
+
+h33 {
+	color: white;
+	float: right;
+	margin-right: 50px;
+	font-size: 25px;
+	position: relative;
+	top: 40px;
+}
+
+.navigation {
+	width: 100vw;
+	height: 50px;
+	background: black;
+	position: fixed; 
+	z-index: 1; 
+
+li {
+	margin-top: 15px;
+	font-size: 20px;
+	float: right; /* makes all of our links on the right side of the nav bar */
+	margin-left: 20px; /* gives 20px of spacing between each text link */
+	margin-right: 20px;
+	text-decoration: none;
+	list-style-type: none;
+	transition: color 1s;
+}
+
+
+a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: purple;
+}
+
+li:last-child { 
+	float: left;
+	margin-left: 40%; 
+	text-decoration: none;
+}
+
+/*Header*/
+

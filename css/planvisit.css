@@ -1,0 +1,287 @@
+.container {
+	background: black;
+	width: 100vw;
+	height: 1900px;
+}
+
+@font-face {
+	font-family: 'Marvin Visions';
+	src: url(../fonts/MarvinVisionsBig-Bold.ttf);
+}
+
+section {
+	position: relative; 
+}
+
+.one { 
+	background: url("../images/Ticket Star.png") no-repeat center;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 100px;
+	margin-left: 100px;
+}
+
+.three {
+	background: url("../images/Caricon.png") no-repeat center;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 700px;
+	margin-left: 100px;
+}
+
+.five { 
+	background: url("../images/Shopicon.png") no-repeat center;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 1050px;
+	margin-left: 100px;
+}
+
+.seven {
+	background: url("../images/Reserveicon.png") no-repeat center;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 1240px;
+	margin-left: 100px;
+}
+
+h1 {
+	font-family: Marvin Visions;
+	color: white;
+	font-size: 48px;
+	margin-left: 230px;
+	position: absolute;
+	top: 25px;
+}
+
+h2 {
+	font-family: Marvin Visions;
+	color: gray;
+	font-size: 32px;
+	position: absolute;
+	top: 110px;
+	margin-left: 235px;
+}
+
+h3 {
+	color: gray;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 180px;
+	margin-left: 280px;
+}
+
+h4 {
+	color: gray;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 250px;
+	margin-left: 300px;
+}
+
+h5 {
+	color: gray;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 300px;
+	margin-left: 300px;
+}
+
+h6 {
+	color: gray;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 350px;
+	margin-left: 300px;
+}
+
+h7 {
+	color: gray;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 400px;
+	margin-left: 300px;
+}
+
+h8 {
+	color: gray;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 450px;
+	margin-left: 300px;
+}
+
+h9 {
+	color: gray;
+	font-weight: normal;
+	font-size: 30px;
+	position: absolute;
+	top: 500px;
+	margin-left: 300px;
+}
+
+h10 {
+	color: white;
+	font-size: 32px;
+	position: absolute;
+	top: 580px;
+	margin-left: 300px;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+h11 {
+	font-family: Marvin Visions;
+	color: white;
+	font-size: 48px;
+	margin-left: 230px;
+	position: absolute;
+	top: 625px;
+}
+
+h12 {
+	font-family: Marvin Visions;
+	color: gray;
+	font-size: 32px;
+	margin-left: 230px;
+	position: absolute;
+	top: 710px;
+}
+
+h13 {
+	font-family: Marvin Visions;
+	color: gray;
+	font-size: 32px;
+	margin-left: 230px;
+	position: absolute;
+	top: 750px;
+}
+
+h14 {
+	font-family: Marvin Visions;
+	color: gray;
+	font-size: 32px;
+	margin-left: 230px;
+	position: absolute;
+	top: 790px;
+}
+
+h15 {
+	color: gray;
+	font-size: 32px;
+	margin-left: 280px;
+	position: absolute;
+	top: 860px;
+	margin-right: 280px;	
+}
+
+h16 {
+	color: white;
+	font-size: 32px;
+	margin-left: 280px;
+	position: absolute;
+	top: 970px;
+}
+
+h17 {
+	color: white;
+	font-size: 32px;
+	margin-left: 600px;
+	position: absolute;
+	top: 970px;
+}
+
+h18 {
+	color: white;
+	font-size: 32px;
+	margin-left: 900px;
+	position: absolute;
+	top: 970px;
+}
+
+h19 {
+	font-family: Marvin Visions;
+	color: white;
+	font-size: 48px;
+	margin-left: 230px;
+	position: absolute;
+	top: 980px;	
+}
+
+h20 {
+	color: gray;
+	font-size: 32px;
+	margin-left: 230px;
+	margin-right: 230px;
+	position: absolute;
+	top: 1060px;
+}
+
+h21 {
+	font-family: Marvin Visions;
+	color: white;
+	font-size: 48px;
+	margin-left: 230px;
+	position: absolute;
+	top: 1170px;		
+}
+
+h22 {
+	color: gray;
+	font-size: 32px;
+	margin-left: 230px;
+	margin-right: 230px;
+	position: absolute;
+	top: 1250px;
+}
+
+
+.navigation {
+	width: 100vw;
+	height: 50px;
+	background: whitesmoke;
+	position: fixed; 
+	z-index: 1; 
+}
+
+
+
+li {
+	color: black;
+	margin-top: 15px;
+	font-size: 20px;
+	float: right; /* makes all of our links on the right side of the nav bar */
+	margin-left: 20px; /* gives 20px of spacing between each text link */
+	margin-right: 20px;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: purple;
+}
+
+li:last-child { 
+	float: left;
+	margin-left: 40%; 
+	text-decoration: none;
+}
+
+
